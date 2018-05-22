@@ -1,0 +1,12 @@
+{
+  "name": "GameTv",
+  "version": "0.0.1",
+  "private": "true",
+  "dependencies": {
+    "express": "*",
+    "mysql": "^2.15.0",
+    "onesignal-node": "^1.0.2",
+    "promise": "^8.0.1",
+    "request": "^2.85.0"
+  }
+}

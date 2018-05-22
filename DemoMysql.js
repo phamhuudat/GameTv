@@ -6,10 +6,10 @@ var con;
 var Connect=function () {
 		return new Promise(function (resolve, reject) {
 		con = mysql.createConnection({
-			host: "localhost",
-			user: "root",
-			password: "1234",
-			database:"gamtv"
+			host: "us-cdbr-iron-east-04.cleardb.net",
+			user: "b6cf5783ce550d",
+			password: "31e69ef86568603",
+			database:"heroku_a4590be68fea6c2"
 		});
 		con.connect(function(err) {
 			if (err) reject(err);

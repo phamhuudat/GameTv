@@ -29,7 +29,7 @@ var Close = function () {
 var connectDb= {
 	CreateDb:function () {
 		Connect();
-		con.query("CREATE DATABASE gamtv",function (err, result) {
+		con.query("CREATE DATABASE heroku_a4590be68fea6c2",function (err, result) {
 			if(err)  console.error(err.message);
 			else
 			console.log("Database created");

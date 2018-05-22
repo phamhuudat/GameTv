@@ -33,4 +33,4 @@ var urlAoeGamtTv="https://www.googleapis.com/youtube/v3/search?part=snippet&orde
     	url.GetObjectYoutube(urlPesTv,'icon');
     });
 }
-setInterval(CheckNotification,40000);
+setInterval(CheckNotification,30000);

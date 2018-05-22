@@ -1,4 +1,13 @@
 
+var express = require("express");
+var app = express();
+app.set("view engine","ejs");
+app.set("views","./views");
+app.listen(process.env.PORT||3000);
+app.get("/",function(req, res){
+  res.render("trangchu");
+})
+
 var events = require('events');
 //var eventEmitter = new events.EventEmitter();
 var url = require('./DemoUrl.js');
@@ -24,4 +33,4 @@ var urlAoeGamtTv="https://www.googleapis.com/youtube/v3/search?part=snippet&orde
     	url.GetObjectYoutube(urlPesTv,'icon');
     });
 }
-setInterval(CheckNotification,60000);
+setInterval(CheckNotification,30000);

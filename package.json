@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "private": "true",
   "dependencies": {
-    "express": "*",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
     "mysql": "^2.15.0",
     "onesignal-node": "^1.0.2",
     "promise": "^8.0.1",
